@@ -21,6 +21,6 @@ app.use(
 app.use(express.json());
 app.use("/api", apiRoute);
 
-app.listen(process.env.APP_PORT, () => {
-  console.log(`Server up and running in port ${process.env.APP_PORT}`);
+app.listen(3000, () => {
+  console.log(`Server up and running in port 3000`);
 });
